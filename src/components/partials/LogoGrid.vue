@@ -5,39 +5,67 @@
     <div class="container py-[100px] bg-white">
       <div class="grid grid-container">
         <div
-          class="item item1 flex items-center justify-center bg-[#E1F0D7] rounded-md"
+          class="item item1 flex items-center justify-center bg-[#E1F0D7] rounded-md overflow-hidden"
         >
-          <img src="../../assets/images/company/artel.png" alt="logo" />
+          <img
+            src="../../assets/images/company/artel.png"
+            alt="logo"
+            class="duration-200"
+          />
         </div>
         <div
-          class="item item2 flex items-center justify-center bg-[#E6E6E6] rounded-md"
+          class="item item2 flex items-center justify-center bg-[#E6E6E6] rounded-md overflow-hidden"
         >
-          <img src="../../assets/images/company/apple.png" alt="logo" />
+          <img
+            src="../../assets/images/company/apple.png"
+            alt="logo"
+            class="duration-200"
+          />
         </div>
         <div
-          class="item item3 flex items-center justify-center bg-[#E6EEF6] rounded-md"
+          class="item item3 flex items-center justify-center bg-[#E6EEF6] rounded-md overflow-hidden"
         >
-          <img src="../../assets/images/company/samsung.png" alt="logo" />
+          <img
+            src="../../assets/images/company/samsung.png"
+            alt="logo"
+            class="duration-200"
+          />
         </div>
         <div
-          class="item item4 flex items-center justify-center bg-[#CCE2F1] rounded-md"
+          class="item item4 flex items-center justify-center bg-[#CCE2F1] rounded-md overflow-hidden"
         >
-          <img src="../../assets/images/company/vivo.png" alt="logo" />
+          <img
+            src="../../assets/images/company/vivo.png"
+            alt="logo"
+            class="duration-200"
+          />
         </div>
         <div
-          class="item item5 flex items-center justify-center bg-[#E0E8F3] rounded-md"
+          class="item item5 flex items-center justify-center bg-[#E0E8F3] rounded-md overflow-hidden"
         >
-          <img src="../../assets/images/company/nokia.png" alt="logo" />
+          <img
+            src="../../assets/images/company/nokia.png"
+            alt="logo"
+            class="duration-200"
+          />
         </div>
         <div
-          class="item item6 flex items-center justify-center bg-[#FFD1D2] rounded-md"
+          class="item item6 flex items-center justify-center bg-[#FFD1D2] rounded-md overflow-hidden"
         >
-          <img src="../../assets/images/company/huawei.png" alt="logo" />
+          <img
+            src="../../assets/images/company/huawei.png"
+            alt="logo"
+            class="duration-200"
+          />
         </div>
         <div
-          class="item item7 flex items-center justify-center bg-[#FFE1CC] rounded-md"
+          class="item item7 flex items-center justify-center bg-[#FFE1CC] rounded-md overflow-hidden"
         >
-          <img src="../../assets/images/company/mi.png" alt="logo" />
+          <img
+            src="../../assets/images/company/mi.png"
+            alt="logo"
+            class="duration-200"
+          />
         </div>
         <div class="item item8 bg-[#EBEFF3] rounded-md">
           <router-link
@@ -57,6 +85,9 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 45px 45px 45px 45px 45px 45px;
   grid-gap: 10px;
+}
+.grid-container .item:hover img {
+  transform: scale(1.2);
 }
 .grid-container .item1 {
   grid-column: 1/2;

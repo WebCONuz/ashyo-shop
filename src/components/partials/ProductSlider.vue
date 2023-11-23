@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import Title from "../ui/element/Title.vue";
+import ProductCard from "../ui/card/ProductCard.vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -17,7 +18,7 @@ const products: number[] = [1, 2, 3, 4, 5, 6, 7, 8];
 <template>
   <section class="product_slider overflow-x-hidden w-full pb-20">
     <Title>{{ props.title }}</Title>
-    <div class="w-[120vw]">
+    <div class="w-[120%]">
       <swiper
         :slidesPerView="6"
         :spaceBetween="25"
@@ -33,7 +34,8 @@ const products: number[] = [1, 2, 3, 4, 5, 6, 7, 8];
           v-for="(item, index) in products"
           :key="index + '-caroucel-item'"
         >
-          <div class="slide_item h-[420px] bg-gray-200"></div>
+          <!-- <div class="slide_item h-[420px] bg-gray-200"></div> -->
+          <ProductCard />
         </swiper-slide>
       </swiper>
     </div>
