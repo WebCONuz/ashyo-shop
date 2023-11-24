@@ -87,7 +87,7 @@
   grid-gap: 10px;
 }
 .grid-container .item:hover img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .grid-container .item1 {
   grid-column: 1/2;

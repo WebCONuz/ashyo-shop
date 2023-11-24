@@ -34,7 +34,6 @@ const products: number[] = [1, 2, 3, 4, 5, 6, 7, 8];
           v-for="(item, index) in products"
           :key="index + '-caroucel-item'"
         >
-          <!-- <div class="slide_item h-[420px] bg-gray-200"></div> -->
           <ProductCard />
         </swiper-slide>
       </swiper>

@@ -4,7 +4,6 @@ import LogoGrid from "../components/partials/LogoGrid.vue";
 import ProductSlider from "../components/partials/ProductSlider.vue";
 import CategoryGrid from "../components/partials/CategoryGrid.vue";
 import ProductBanner from "../components/partials/ProductBanner.vue";
-import Footer from "../components/partials/Footer.vue";
 </script>
 
 <template>
@@ -18,7 +17,6 @@ import Footer from "../components/partials/Footer.vue";
     <ProductSlider title="Oxirgi ko’rgan mahsulotlar" />
     <ProductBanner />
     <ProductSlider title="Aksiyadagi tovarlar" />
-    <Footer />
   </main>
 </template>
 

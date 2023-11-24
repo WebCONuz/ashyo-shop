@@ -152,55 +152,55 @@ function openSubMebu(e: any) {
       class="main-nav container pb-[29px] bg-white flex items-center justify-between"
     >
       <router-link
-        to="#"
+        to="/product"
         class="text-[#545D6A] hover:text-black relative duration-200"
       >
         Aksiyalar
       </router-link>
       <router-link
-        to="#"
+        to="/product"
         class="text-[#545D6A] hover:text-black relative duration-200"
       >
         Smartfonlar
       </router-link>
       <router-link
-        to="#"
+        to="/product"
         class="text-[#545D6A] hover:text-black relative duration-200"
       >
         Noutbooklar
       </router-link>
       <router-link
-        to="#"
+        to="/product"
         class="text-[#545D6A] hover:text-black relative duration-200"
       >
         Kondetsionerlar
       </router-link>
       <router-link
-        to="#"
+        to="/product"
         class="text-[#545D6A] hover:text-black relative duration-200"
       >
         Telivizorlar
       </router-link>
       <router-link
-        to="#"
+        to="/product"
         class="text-[#545D6A] hover:text-black relative duration-200"
       >
         Muzlatgichlar
       </router-link>
       <router-link
-        to="#"
+        to="/product"
         class="text-[#545D6A] hover:text-black relative duration-200"
       >
         Kiryuvish mashinalari
       </router-link>
       <router-link
-        to="#"
+        to="/product"
         class="text-[#545D6A] hover:text-black relative duration-200"
       >
         Telivizorlar
       </router-link>
       <router-link
-        to="#"
+        to="/product"
         class="text-[#545D6A] hover:text-black relative duration-200"
       >
         Kiryuvish mashinalari

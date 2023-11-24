@@ -8,7 +8,7 @@ import CompareIcon from "../../icons/CompareIcon.vue";
   <div class="product-card">
     <router-link
       to="#"
-      class="block bg-[#EBEFF3] rounded-lg flex items-center justify-center h-[280px] overflow-hidden mb-4"
+      class="w-full bg-[#EBEFF3] rounded-lg flex items-center justify-center h-[280px] overflow-hidden mb-4"
     >
       <img
         src="../../../assets/images/product.png"
